@@ -65,22 +65,33 @@
 
 
 //The Switch Statement in JavaScript
-const day = 'Monday'; // Or any day of the week
+// const day = 'Monday'; // Or any day of the week
 
-switch (day) {
-  case 'Monday':
-    console.log('Plan course structure');
-    console.log('Go to coding meetup');
-    break; // Exit the switch after Monday tasks
-  case 'Tuesday': // Corrected typo
-    console.log('Prepare theory video');
-    break;
-  case 'Wednesday':
-    console.log('Write code examples');
-    break;
-  case 'Thursday':
-    console.log('Write code examples');
-    break;
-  default: // If day doesn't match any case
-    console.log('Relax! It\'s the weekend or an invalid day.');
+// switch (day) {
+//   case 'Monday':
+//     console.log('Plan course structure');
+//     console.log('Go to coding meetup');
+//     break; // Exit the switch after Monday tasks
+//   case 'Tuesday': // Corrected typo
+//     console.log('Prepare theory video');
+//     break;
+//   case 'Wednesday':
+//     console.log('Write code examples');
+//     break;
+//   case 'Thursday':
+//     console.log('Write code examples');
+//     break;
+//   default: // If day doesn't match any case
+//     console.log('Relax! It\'s the weekend or an invalid day.');
+// }
+
+
+//Statement and Expressions
+
+3 + 4 
+1991
+true && false && ! false
+
+if (23 > 10){
+    const str = '23 is bigger';
 }

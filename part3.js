@@ -49,17 +49,25 @@
 // console.log(myBodyDetails(Brown, 10, 20));
 
 
-const cutPieces = function(fruit){
-    return fruit * 4;
+// const cutPieces = function(fruit){
+//     return fruit * 4;
+// }
+
+// const fruitProcessor = function(apples, oranges){
+
+//     const applePieces = cutPieces(apples);
+//     const orangePieces = cutPieces(oranges);
+
+//     const juice = `Juice with ${orangePieces} pieces of apples and ${applePieces} pieces of orange.`;
+//     return juice;
+// };
+
+// console.log(fruitProcessor(2, 3));
+
+function calcAge(birthYear,firstname){
+    const age = 2037 - birthYear;
+    console.log(`${firstname} is ${age} years old`);
+    return age;
 }
 
-const fruitProcessor = function(apples, oranges){
-
-    const applePieces = cutPieces(apples);
-    const orangePieces = cutPieces(oranges);
-
-    const juice = `Juice with ${orangePieces} pieces of apples and ${applePieces} pieces of orange.`;
-    return juice;
-};
-
-console.log(fruitProcessor(2, 3));
+const age = calcAge(1991, 'Wayne');

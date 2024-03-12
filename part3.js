@@ -39,11 +39,27 @@
 
 //FUNCTIONS CALLING OTHER FUNCTIONS
 
-function myBodyDetails(MyHairColor,MyHeight,MyWeight){
-    const MyNewHeight = MyHeight + 10;
-    const MyNewWeight = MyWeight + 5;
-    const MyNewHairColor = 'Black';
-    const myBodyDetails = 'My name is' + 'My weight is' + MyNewWeight + 'my new hair color is'+MyNewHairColor;
-    return myBodyDetails
+// function myBodyDetails(MyHairColor,MyHeight,MyWeight){
+//     const MyNewHeight = MyHeight + 10;
+//     const MyNewWeight = MyWeight + 5;
+//     const MyNewHairColor = 'Black';
+//     const myBodyDetails = 'My name is' + 'My weight is' + MyNewWeight + 'my new hair color is'+MyNewHairColor;
+//     return myBodyDetails
+// }
+// console.log(myBodyDetails(Brown, 10, 20));
+
+
+const cutPieces = function(fruit){
+    return fruit * 4;
 }
-myBodyDetails(Brown, 100, 500);
+
+const fruitProcessor = function(apples, oranges){
+
+    const applePieces = cutPieces(apples);
+    const orangePieces = cutPieces(oranges);
+
+    const juice = `Juice with ${orangePieces} pieces of apples and ${applePieces} pieces of orange.`;
+    return juice;
+};
+
+console.log(fruitProcessor(2, 3));

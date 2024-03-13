@@ -64,10 +64,31 @@
 
 // console.log(fruitProcessor(2, 3));
 
-function calcAge(birthYear,firstname){
-    const age = 2037 - birthYear;
-    console.log(`${firstname} is ${age} years old`);
-    return age;
-}
+// function calcAge(birthYear,firstname){
+//     const age = 2037 - birthYear;
+//     console.log(`${firstname} is ${age} years old`);
+//     return age;
+// }
 
-const age = calcAge(1991, 'Wayne');
+// const age = calcAge(1991, 'Wayne');
+
+
+// const calcAverage = (a, b, c) => (a + b + c) / 3;
+// console.log(calcAverage(2, 3, 4));
+
+// const scoreDolphins = calcAverage(44, 23, 71);
+// const scoreKaolas = calcAverage(65, 54, 49);
+// console.log(scoreDolphins,scoreKaolas);
+
+// const checkWinner = function(avDolphins, avKoalas){
+//     if(avDolphins >= 2 * avKoalas){
+        
+//     }
+// }
+
+//Arrays in Javascript
+
+var characters = ['Wayne', 'Luke', 'Jonathan'];
+console.log(characters);
+console.log(characters.length);
+console.log(characters[characters.length-1]);

@@ -99,10 +99,19 @@
 
 //MANIPULATING AND SORTING
 
-var characters = ['Luke', 'Leia', 'Chewie'];
-console.log(characters); 
+// var characters = ['Luke', 'Leia', 'Chewie'];
+// console.log(characters); 
 
 
 
-characters.splice(0, 1, 'Rau');
-console.log(characters);
+// characters.splice(0, 1, 'Rau');
+// console.log(characters);
+
+//JAVASCRIPT FOR Loopvars
+
+var names = ['wayne', 'hudson', 'takudzwa', 'tatenda', 'tafadzwa'];
+var numNames = names.length;
+
+for( var i = 0; i<numNames; i ++ ){
+    console.log(names[7]);
+}

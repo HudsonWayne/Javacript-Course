@@ -88,7 +88,21 @@
 
 //Arrays in Javascript
 
-var characters = ['Wayne', 'Luke', 'Jonathan'];
+// var characters = ['Wayne', 'Luke', 'Jonathan'];
+// console.log(characters);
+// console.log(characters.length);
+// console.log(characters[characters.length-1]);
+
+// //ADDING AND REMOVING ARRAYS 
+
+
+
+//MANIPULATING AND SORTING
+
+var characters = ['Luke', 'Leia', 'Chewie'];
+console.log(characters); 
+
+
+
+characters.splice(0, 1, 'Rau');
 console.log(characters);
-console.log(characters.length);
-console.log(characters[characters.length-1]);
